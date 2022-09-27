@@ -2,7 +2,7 @@
   "name": "react-template",
   "version": "1.0.0",
   "description": "react-template",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "exit 0",
     "lint": "eslint --ext js --ext jsx src",
@@ -10,18 +10,11 @@
     "start:watch": "npm run start",
     "build": "webpack --devtool source-map"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mariahschock/React-Template.git"
-  },
   "keywords": [],
   "author": "mariah",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mariahschock/React-Template/issues"
-  },
-  "homepage": "https://github.com/mariahschock/React-Template#readme",
   "dependencies": {
+    "classnames": "^2.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.1"
