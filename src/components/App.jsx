@@ -18,12 +18,12 @@ export default function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<Home />} />
+          <Route path="shows" element={<Shows />} />
           <Route path="movies" element={<Movies />} >
             <Route path="comedy" element={<Comedy />} />
             <Route path="drama" element={<Drama />} />
             <Route path="action" element={<Action />} />
           </Route>  
-          <Route path="shows" element={<Shows />} />
         </Route>
 
         <Route path="*" element={<Navigate to="/" replace />} />
