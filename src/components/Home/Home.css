@@ -1,3 +1,8 @@
 .Home {
     background: lemonchiffon;
+
+    @media (min-width: 700px) {
+        padding-left: var(--padding);
+        
+      }
 }

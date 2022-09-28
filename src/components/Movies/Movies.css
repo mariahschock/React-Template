@@ -1,0 +1,16 @@
+.Movies {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    @media (min-width: 700px) {
+      padding-left: var(--padding);
+      
+    }
+}
+.Links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
